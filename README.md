@@ -30,14 +30,21 @@ In this project, the goal was to explore **FPGA-based BLDC control**, leveraging
 
 ## 🧩 Project Structure
 
-.
-├── code/ # VHDL source code (Vivado project)
-├── documentation/ # Technical notes, design explanations
-├── labview/ # LabVIEW control interface
-├── matlab/ # Simulations and control modeling
-├── schematic/ # Electrical schematics of the BLDC PCB
+1. **code/**  
+   VHDL source files and Vivado project used to implement the BLDC motor control logic on the FPGA.
 
+2. **documentation/**  
+   Technical documentation, design notes, and analysis related to the project.
 
+3. **labview/**  
+   NI LabVIEW files used for the control interface, monitoring, and user interaction.
+
+4. **matlab/**  
+   MATLAB models and simulations for validating control strategies and motor behavior.
+
+5. **schematic/**  
+   Electrical schematics of the custom-designed BLDC ESC PCB.
+   
 ---
 
 ## 🛠️ Hardware Used
